@@ -161,7 +161,7 @@ export default function Main() {
         <h2 className="text-white text-xl sm:text-3xl">
           <Typewriter
             words={[
-              "Full Stack Software Developer",
+              "Full Stack Web & Mobile Developer",
               "UX/UI Designer",
               "Creative Dev",
             ]}

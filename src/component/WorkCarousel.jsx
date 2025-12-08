@@ -36,6 +36,11 @@ const works = [
     description:
       "Passionate about user research and testing, wireframing and prototyping, visual design and usability, design systems and accessibility",
   },
+    {
+    title: "Multi-Stack Skills",
+    description:
+      "I’m able to integrate multiple languages and frameworks—such as Python and Node.js—into one system to build stronger, more flexible applications.",
+  },
 ];
 
 export default function WorkCarousel() {

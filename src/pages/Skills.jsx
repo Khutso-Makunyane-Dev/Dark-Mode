@@ -9,15 +9,20 @@ import { MdOutlineDesignServices } from "react-icons/md";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { LiaLaptopCodeSolid } from "react-icons/lia";
+import { TbBrandReactNative } from "react-icons/tb";
+import { SiExpo } from "react-icons/si";
 
 export default function Skills() {
   const scrollRef = useRef(null);
   const [scrolling, setScrolling] = useState(true);
 
   const skills = [
+    { icon: <LiaLaptopCodeSolid className="text-[#fff] text-8xl" />, name: "Pro Languages", desc: "JavaScipt, TypeScript & Python" },
     { icon: <BiLogoMongodb className="text-[#11DAD1] text-8xl" />, name: "MongoDB", desc: "Stores application data flexibly." },
     { icon: <SiExpress className="text-[#fff] text-8xl" />, name: "Express.js", desc: "Handles backend logic efficiently." },
     { icon: <FaReact className="text-[#11DAD1] text-8xl" />, name: "React.js", desc: "Builds dynamic UI components." },
+    { icon: <TbBrandReactNative className="text-[#fff] text-8xl" />, name: "React Native", desc: "Develops mobile apps that run smoothly on both iOS and Android." },
     { icon: <FaNode className="text-[#6EFA8A] text-8xl" />, name: "Node.js", desc: "Runs server-side JavaScript." },
     { icon: <DiDjango className="text-[#0ECF76] text-8xl" />, name: "Django", desc: "Python framework for robust backends." },
     { icon: <FaHtml5 className="text-[#E34C26] text-8xl" />, name: "HTML5", desc: "Structures web pages semantically." },
@@ -28,6 +33,8 @@ export default function Skills() {
     { icon: <BiLogoPostgresql className="text-[#336791] text-8xl" />, name: "PostgreSQL", desc: "Database design, CRUD operations, and query optimization." },
     { icon: <DiMysql className="text-[#00758F] text-8xl" />, name: "MySQL", desc: "Relational database management." },
     { icon: <MdOutlineDesignServices className="text-[#DA0E9D] text-8xl" />, name: "UX/UI Design", desc: "Designs user-centered experiences." },
+    { icon: <SiExpo className="text-[#fff] text-8xl" />, name: "Expo", desc: "Builds and deploys React Native apps fast." },
+
   ];
 
   // Auto-scroll effect

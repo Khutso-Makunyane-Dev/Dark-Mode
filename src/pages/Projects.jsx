@@ -11,6 +11,7 @@ import WisePrice from "../assets/WisePrice.png";
 import SmartBiz from "../assets/SmartBiz.png";
 import Vibe from "../assets/Vibe.png";
 import FetchMateBG from '../assets/FetchMateBG.png';
+import TaskMate from '../assets/TaskMate.png';
 
 // ✅ Project Card Component (No TypeScript)
 const ProjectCard = ({ image, title, demoLink, githubLink, category, index, tools = [] }) => {
@@ -136,14 +137,23 @@ export default function Projects() {
               transition={{ duration: 0.6 }}
             >
               <ProjectCard
+                image={TaskMate}
+                title="TaskMate"
+                githubLink="https://github.com/khutso-student/taskmate"
+                category="App"
+                tools={["React Native","Expo", "JavaScript", "Node.js", "Express.js", "MongoDB"]}
+                index="01"
+              />
+              <ProjectCard
                 image={Que}
                 title="QueueCare"
                 demoLink="https://queue-care-swart.vercel.app/"
                 githubLink="https://github.com/khutso-student/QueueCare"
                 category="Software"
                 tools={["React","JavaScript", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"]}
-                index="01"
+                index="02"
               />
+
               <ProjectCard
                 image={QueFiling}
                 title="QueueCare Filing"
@@ -151,7 +161,7 @@ export default function Projects() {
                 githubLink="https://github.com/khutso-student/QueueCareFiling"
                 category="Software"
                 tools={["React", "JavaScript", "Tailwind CSS", "Node.js","Express.js", "MongoDB"]}
-                index="02"
+                index="03"
               />
               <ProjectCard
                 image={Vibe}
@@ -160,7 +170,7 @@ export default function Projects() {
                 githubLink="https://github.com/khutso-student/vibeconnect"
                 category="Software"
                 tools={["React","JavaScript","Tailwing CSS", "Socket.io", "Express","Nodde.js", "MongoDB"]}
-                index="03"
+                index="04"
               />
 
               <ProjectCard
@@ -170,7 +180,7 @@ export default function Projects() {
                 githubLink="https://github.com/khutso-student/FetchMate"
                 category="Software"
                 tools={["React","JavaScript","Tailwing CSS", "Django","PostgreSQL", "SQLIte", "yt-dlp"]}
-                index="04"
+                index="05"
               />
 
               <ProjectCard
@@ -180,7 +190,7 @@ export default function Projects() {
                 githubLink="https://github.com/khutso-student/WorkSync"
                 category="Software"
                 tools={["React","JavaScript", "Express.js", "Socket.io", "Node.js", "Tailwind CSS", "MongoDB"]}
-                index="05"
+                index="06"
               />
               <ProjectCard
                 image={WisePrice}
@@ -189,7 +199,7 @@ export default function Projects() {
                 githubLink="https://github.com/khutso-student/price-wise-shopkeeper"
                 category="Software"
                 tools={["React","TypeScript", "Supabase", "AI APIs","HTML", "CSS"]}
-                index="06"
+                index="07"
               />
               <ProjectCard
                 image={SmartBiz}
@@ -197,7 +207,7 @@ export default function Projects() {
                 demoLink="https://www.smartbizdigital.co.za/"
                 category="Website Live"
                 tools={["WordPress", "JavaScript", "Elementor","HTML", "CSS"]}
-                index="07"
+                index="08"
               />
             </motion.div>
           )}
