@@ -61,7 +61,7 @@ export default function Marquee() {
                     />
                 </div>
 
-                <p className="font-semibold">Full Stack Developer</p>
+                <p className="font-semibold">Full-Stack Software Developer</p>
                 </div>
 
 
@@ -76,7 +76,7 @@ export default function Marquee() {
                         />
                     </div>
                 
-                    <p className="font-semibold">Back-End Developer</p>
+                    <p className="font-semibold">Web Developer</p>
               </div>
 
               {/* Back-End */}
@@ -90,7 +90,7 @@ export default function Marquee() {
                         />
                     </div>
                 
-                    <p className="font-semibold">Front-End Developer</p>
+                    <p className="font-semibold">Mobile Developer</p>
               </div>
 
               {/* Database */}
@@ -104,7 +104,7 @@ export default function Marquee() {
                         />
                     </div>
                 
-                    <p className="font-semibold">Database Design</p>
+                    <p className="font-semibold">Desktop Application Developer</p>
               </div>
 
               {/* UX/UI Design */}
@@ -118,7 +118,7 @@ export default function Marquee() {
                         />
                     </div>
                 
-                    <p className="font-semibold">UX/UI Designer</p>
+                    <p className="font-semibold">UX & UI Designer</p>
               </div>
             </div>
           ))}

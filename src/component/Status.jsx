@@ -67,14 +67,14 @@ export default function Status() {
         Icon={GoCodeSquare}
         color="#11DAD1"
         title="Front-End Developer"
-        description="I build responsive, interactive interfaces using React, Tailwind CSS, and modern JavaScript frameworks for seamless user experiences."
+        description="I build responsive, interactive interfaces using React, React Native, QT Design, Tailwind CSS, and modern JavaScript frameworks for seamless user experiences."
       />
 
       <StatusCard
         Icon={BsJournalCode}
         color="#FFD700"
         title="Back-End Developer"
-        description="I develop secure and scalable backends using Node.js, Express, Django and databases like MongoDB and Supabase, ensuring  data management and API integration."
+        description="I develop secure and scalable backends using Node.js, Express, Django and databases like MongoDB, PostgreSQL & SQL, ensuring  data management and API integration."
       />
     </div>
   );

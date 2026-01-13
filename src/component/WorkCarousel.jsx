@@ -24,7 +24,7 @@ const works = [
   {
     title: "Frontend Development",
     description:
-      "I create responsive and interactive UIs using React, Tailwind CSS, Html & CSS, JavaScript and TypeScript, focusing on user experience and performance optimization.",
+      "I create responsive and interactive UIs using React, React Native, Qt Designs, Tailwind CSS, Html & CSS, JavaScript and TypeScript, focusing on user experience and performance optimization.",
   },
   {
     title: "Deployment",

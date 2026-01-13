@@ -52,9 +52,9 @@ export default function About() {
         </h1>
 
         {[
-          "I’m a Full-Stack Web & Mobile Developer and UX/UI Designer with hands-on experience designing and developing modern, scalable web applications using the MERN stack (MongoDB, Express.js, React, React Native, Node.js).",
-          "Trained at the PowerLearn Project (PLP) Academy, I’ve spent the past 2 years mastering both front-end and back-end technologies — building full-stack solutions that are efficient, maintainable, and focused on real-world impact.",
-          "I specialize in crafting user-friendly digital products that bridge clean design and robust functionality. My technical toolkit includes HTML, CSS, JavaScript, TypeScript, React, React Native, Node.js, Express, MySQL, MongoDB, and Python (Django), alongside design tools like Figma and version control with Git & GitHub.",
+          "I’m a Full-Stack Software Developer and UX/UI Designer with hands-on experience building web, mobile, and desktop applications using modern, scalable technologies. I work across the full development lifecycle — from user-centered design to robust backend implementation.",
+          "Trained through the Power Learn Project (PLP) Academy and additional professional certifications, I have developed strong skills in both frontend and backend development, creating solutions that are efficient, maintainable, and focused on real-world impact. My experience includes building applications with React, React Native, Node.js, Express, Django, and Python, as well as desktop software using Qt Designer and PyQt.",
+          "My technical toolkit includes HTML, CSS, JavaScript, TypeScript, React, React Native, Node.js, Express, MySQL, MongoDB, and Python (Django), alongside design tools like Figma and version control with Git & GitHub.",
           "One of my proudest achievements is QueueCare, a smart queue and file management system built for healthcare facilities. It streamlines patient flow, digitizes records, and reduces waiting times — improving the experience for both patients and staff.",
           "Let’s build the future — one line of code at a time."
         ].map((text, i) => (
