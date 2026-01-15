@@ -13,6 +13,7 @@ import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiExpo } from "react-icons/si";
 import { SiQt } from "react-icons/si";
+import { AiOutlinePython } from "react-icons/ai";
 
 export default function Skills() {
   const scrollRef = useRef(null);
@@ -25,6 +26,7 @@ export default function Skills() {
     { icon: <FaReact className="text-[#11DAD1] text-8xl" />, name: "React.js", desc: "Builds dynamic UI components." },
     { icon: <TbBrandReactNative className="text-[#fff] text-8xl" />, name: "React Native", desc: "Develops mobile apps that run smoothly on both iOS and Android." },
     { icon: <FaNode className="text-[#6EFA8A] text-8xl" />, name: "Node.js", desc: "Runs server-side JavaScript." },
+    { icon: <AiOutlinePython className="text-[#F0DB4F] text-8xl" />, name: "Python", desc: "programming language used for desktop applications, web development, automation, AI/ML, and backend systems" },
     { icon: <DiDjango className="text-[#0ECF76] text-8xl" />, name: "Django", desc: "Python framework for robust backends." },
     { icon: <SiQt className="text-[#0ECF76] text-8xl" />, name: "Qt Designer, PyQt", desc: "Build Python desktop applications with visually structured interfaces using Qt Designer, integrating functionality, event handling, and workflows through PyQt." },
     { icon: <FaHtml5 className="text-[#E34C26] text-8xl" />, name: "HTML5", desc: "Structures web pages semantically." },
