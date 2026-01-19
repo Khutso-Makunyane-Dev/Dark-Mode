@@ -161,9 +161,9 @@ export default function Main() {
         <h2 className="text-white text-xl sm:text-3xl">
           <Typewriter
             words={[
-              "Full-Stack Software Developer",
-              "UX/UI Designer",
-              "Creative Dev",
+              "Software Developer",
+              "Full-Stack",
+              "UX & UI Designer",
             ]}
             loop={false}
             cursor

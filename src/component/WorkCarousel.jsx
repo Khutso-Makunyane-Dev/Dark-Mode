@@ -7,9 +7,9 @@ const works = [
       "I can build secure authentication systems using JWT, bcrypt, and session management. This includes login, signup, password resets, and signup by Google role-based access.",
   },
   {
-    title: "REST-Full APIs",
+    title: "REST-Full & FastAPI",
     description:
-      "I can design and develop scalable REST APIs with Express.js, Node.js & Django, enabling seamless communication between frontend and backend.",
+      "I can design and develop scalable REST APIs AND FastAPI with Python, Express.js, Node.js & Django, enabling seamless communication between frontend and backend.",
   },
     {
     title: "Socket IO",
@@ -24,12 +24,12 @@ const works = [
   {
     title: "Frontend Development",
     description:
-      "I create responsive and interactive UIs using React, React Native, Qt Designs, Tailwind CSS, Html & CSS, JavaScript and TypeScript, focusing on user experience and performance optimization.",
+      "I create responsive and interactive UIs using React, React Native, Qt Designs,PySide, Tailwind CSS, Html & CSS, JavaScript and TypeScript, focusing on user experience and performance optimization.",
   },
   {
     title: "Deployment",
     description:
-      "I can deploy full-stack apps to cloud platforms like Vercel, Render, MongoDB Clusters and, ensuring CI/CD and scalability.",
+      "I can deploy full-stack apps to cloud platforms like Vercel, Render, MongoDB Clusters and, Inno Setup ensuring CI/CD and scalability.",
   },
     {
     title: "UX/UI Designer",

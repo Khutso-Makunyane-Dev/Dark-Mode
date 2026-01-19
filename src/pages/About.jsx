@@ -52,7 +52,7 @@ export default function About() {
         </h1>
 
         {[
-          "I’m a Full-Stack Software Developer and UX/UI Designer with hands-on experience building web, mobile, and desktop applications using modern, scalable technologies. I work across the full development lifecycle — from user-centered design to robust backend implementation.",
+          "I’m a Junior - Intermediate Software Developer and UX/UI Designer with hands-on experience building web, mobile, and desktop applications using modern, scalable technologies. I work across the full development lifecycle — from user-centered design to robust backend implementation.",
           "Trained through the Power Learn Project (PLP) Academy and additional professional certifications, I have developed strong skills in both frontend and backend development, creating solutions that are efficient, maintainable, and focused on real-world impact. My experience includes building applications with React, React Native, Node.js, Express, Django, and Python, as well as desktop software using Qt Designer and PyQt.",
           "My technical toolkit includes HTML, CSS, JavaScript, TypeScript, React, React Native, Node.js, Express, MySQL, MongoDB, and Python (Django), alongside design tools like Figma and version control with Git & GitHub.",
           "One of my proudest achievements is QueueCare, a smart queue and file management system built for healthcare facilities. It streamlines patient flow, digitizes records, and reduces waiting times — improving the experience for both patients and staff.",

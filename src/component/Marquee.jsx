@@ -61,7 +61,7 @@ export default function Marquee() {
                     />
                 </div>
 
-                <p className="font-semibold">Full-Stack Software Developer</p>
+                <p className="font-semibold">Software Developer</p>
                 </div>
 
 
