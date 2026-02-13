@@ -2,6 +2,7 @@ import { TbDeviceDesktopCode } from "react-icons/tb"; // full stack icon
 import { LiaLaptopCodeSolid } from "react-icons/lia"; // front-end icon
 import { PiCodeBold, PiCodepenLogoLight } from "react-icons/pi"; // backend + database icons
 import { SiAntdesign } from "react-icons/si"; // ux/ui design icon
+import { VscRobot } from "react-icons/vsc";
 
 export default function Marquee() {
   return (
@@ -76,7 +77,7 @@ export default function Marquee() {
                         />
                     </div>
                 
-                    <p className="font-semibold">Web Developer</p>
+                    <p className="font-semibold">Full Stack Developer</p>
               </div>
 
               {/* Back-End */}
@@ -105,6 +106,19 @@ export default function Marquee() {
                     </div>
                 
                     <p className="font-semibold">Desktop Application Developer</p>
+              </div>
+
+              <div className="flex justify-center items-center mr-4 gap-5 text-white p-4">
+                    <div className="flex justify-center items-center w-10 h-10 bg-[#18181B] rounded-full">
+                        <VscRobot
+                        className="text-2xl text-white"
+                        style={{
+                                filter: "drop-shadow(0 0 1px #ffffff) drop-shadow(0 0 6px rgba(255,255,255,0.4))",
+                            }}
+                        />
+                    </div>
+                
+                    <p className="font-semibold">AI & ML Developer</p>
               </div>
 
               {/* UX/UI Design */}

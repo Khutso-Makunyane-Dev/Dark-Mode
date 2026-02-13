@@ -67,7 +67,7 @@ export default function Main() {
 
   // 🎨 Button style
   const navButtonClass = (isActive) => `
-    cursor-pointer transition-all duration-300 text-2xl
+   flex flex-col justify-center items-center cursor-pointer transition-all duration-300 text-xs
     ${isActive ? "text-[#11DAD1] scale-110" : "text-[#fff] hover:text-[#11DAD1]"}
   `;
 
@@ -107,31 +107,36 @@ export default function Main() {
               onClick={() => handleClick("#home")}
               className={navButtonClass(active === "#home")}
             >
-              <GoHome />
+              <GoHome className="text-xl" />
+              Home
             </button>
             <button
               onClick={() => handleClick("#about")}
               className={navButtonClass(active === "#about")}
             >
-              <FaRegCircleUser />
+              <FaRegCircleUser className="text-xl" />
+              About
             </button>
             <button
               onClick={() => handleClick("#skills")}
               className={navButtonClass(active === "#skills")}
             >
-              <IoBuildOutline />
+              <IoBuildOutline className="text-xl" />
+              Skills
             </button>
             <button
               onClick={() => handleClick("#projects")}
               className={navButtonClass(active === "#projects")}
             >
-              <RiApps2Line />
+              <RiApps2Line className="text-xl" />
+              Projects
             </button>
             <button
               onClick={() => handleClick("#contact")}
               className={navButtonClass(active === "#contact")}
             >
-              <LuPhone />
+              <LuPhone className="text-xl" />
+              Contact
             </button>
           </div>
         </div>
@@ -163,6 +168,7 @@ export default function Main() {
             words={[
               "Software Developer",
               "Full-Stack",
+              "AI/ML Developer",
               "UX & UI Designer",
             ]}
             loop={false}

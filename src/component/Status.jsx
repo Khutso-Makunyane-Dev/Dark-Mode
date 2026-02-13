@@ -1,6 +1,7 @@
 import { MdOutlineDesignServices } from "react-icons/md";
 import { GoCodeSquare } from "react-icons/go";
 import { BsJournalCode } from "react-icons/bs";
+import { VscRobot } from "react-icons/vsc";
 import { motion } from "framer-motion";
 
 // ✅ Reusable Card Component
@@ -59,22 +60,22 @@ export default function Status() {
       <StatusCard
         Icon={MdOutlineDesignServices}
         color="#DA0E9D"
-        title="UX/UI Designer"
-        description="I design intuitive and visually appealing interfaces using Figma, from wireframes to prototypes, ensuring seamless user experiences through testing and iteration."
+        title="UX UI Designer"
+        description="Creative and detail-oriented designer focused on crafting intuitive, user-centered digital experiences. Skilled in wireframing, prototyping, responsive design, and usability testing to deliver interfaces that delight users."
       />
 
       <StatusCard
         Icon={GoCodeSquare}
         color="#11DAD1"
-        title="Front-End Developer"
-        description="I build responsive, interactive interfaces using React, React Native, QT Design, Tailwind CSS, and modern JavaScript frameworks for seamless user experiences."
+        title="Software Developer"
+        description="Junior developer experienced in building web, mobile, and desktop applications. Works across the full development lifecycle, creating scalable, maintainable, and efficient solutions using modern technologies."
       />
 
       <StatusCard
-        Icon={BsJournalCode}
+        Icon={VscRobot}
         color="#FFD700"
-        title="Back-End Developer"
-        description="I develop secure and scalable backends using Node.js, Express, Django and databases like MongoDB, PostgreSQL & SQL, ensuring  data management and API integration."
+        title="AI/ML Developer"
+        description="Developer with hands-on experience applying AI and machine learning to real-world problems. Skilled in Python, data analysis, and model implementation to enhance automation, insights, and intelligent features in applications"
       />
     </div>
   );

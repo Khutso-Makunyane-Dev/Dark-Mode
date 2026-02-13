@@ -31,6 +31,13 @@ const works = [
     description:
       "I can deploy full-stack apps to cloud platforms like Vercel, Render, MongoDB Clusters and, Inno Setup ensuring CI/CD and scalability.",
   },
+
+    {
+    title: "AI/ML",
+    description:
+      "Built end-to-end AI-powered solutions, including backend APIs, data processing, predictive models, and frontend interfaces with smart automation and real-time insights.",
+  },
+
     {
     title: "UX/UI Designer",
     description:

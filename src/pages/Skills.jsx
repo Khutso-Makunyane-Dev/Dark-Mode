@@ -14,6 +14,14 @@ import { TbBrandReactNative } from "react-icons/tb";
 import { SiExpo } from "react-icons/si";
 import { SiQt } from "react-icons/si";
 import { AiOutlinePython } from "react-icons/ai";
+import { SiTensorflow } from "react-icons/si";
+import { SiPytorch } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
+import { SiPandas } from "react-icons/si";
+import { SiNumpy } from "react-icons/si";
+import { MdShowChart } from "react-icons/md";
+import { IoWaterOutline } from "react-icons/io5";
+import { SiSpacy } from "react-icons/si";
 
 export default function Skills() {
   const scrollRef = useRef(null);
@@ -36,6 +44,15 @@ export default function Skills() {
     { icon: <TbBrandTypescript className="text-[#007ACC] text-8xl" />, name: "TypeScript", desc: "Strongly-typed JavaScript." },
     { icon: <BiLogoPostgresql className="text-[#336791] text-8xl" />, name: "PostgreSQL", desc: "Database design, CRUD operations, and query optimization." },
     { icon: <DiMysql className="text-[#00758F] text-8xl" />, name: "MySQL", desc: "Relational database management." },
+    { icon: <SiTensorflow className="text-[#306998] text-8xl" />, name: "Tensorflow", desc: "Flexible deep learning library for research and production AI models." },
+    { icon: <SiPytorch className="text-[#EE4C2C] text-8xl" />, name: "Pytorch", desc: "Primary language for AI/ML, data analysis, and automation." },
+    { icon: <SiScikitlearn className="text-[#F7931E] text-8xl" />, name: "Scikitlearn", desc: "Provides easy-to-use machine learning algorithms for predictive modeling." },
+    { icon: <SiPandas className="text-[#fff] text-8xl" />, name: "Pandas", desc: "Data manipulation and analysis library for structured datasets." },
+    { icon: <SiNumpy className="text-[#013243] text-8xl" />, name: "Numpy", desc: "Efficient numerical computing library for arrays and mathematical operations." },
+    { icon: <MdShowChart className="text-[#FF6600] text-8xl" />, name: "Matplotlib", desc: "Popular library for creating static, interactive, and animated plots." },
+    { icon: <IoWaterOutline className="text-[#4C72B0] text-8xl" />, name: "Seaborn", desc: "Built on Matplotlib for statistical data visualization with aesthetic plots." },
+    { icon: <SiSpacy className="text-[##FF4B00] text-8xl" />, name: "spaCy", desc: "Industrial-strength NLP library for text processing and entity recognition." },
+
     { icon: <MdOutlineDesignServices className="text-[#DA0E9D] text-8xl" />, name: "UX/UI Design", desc: "Designs user-centered experiences." },
     { icon: <SiExpo className="text-[#fff] text-8xl" />, name: "Expo", desc: "Builds and deploys React Native apps fast." },
 
