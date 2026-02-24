@@ -157,12 +157,14 @@ export default function Projects() {
                 tools={["Python","PySide6 (Qt Design)", "pyttsx3 (TTS engine)", "PyInstaller (packaging)", "Inno Setup"]}
                 index="02"
               />
+
               <ProjectCard
-                image={TaskMate}
-                title="TaskMate"
-                githubLink="https://github.com/khutso-student/taskmate"
-                category="App"
-                tools={["React Native","Expo", "JavaScript", "Node.js", "Express.js", "MongoDB"]}
+                image={Que}
+                title="QueueCare"
+                demoLink="https://queue-care-swart.vercel.app/"
+                githubLink="https://github.com/Khutso-Makunyane-Dev/QueueCare"
+                category="Software"
+                tools={["React", "JavaScript", "Tailwind CSS", "Node.js","Express.js", "MongoDB"]}
                 index="03"
               />
 
@@ -175,6 +177,16 @@ export default function Projects() {
                 tools={["React", "JavaScript", "Tailwind CSS", "Node.js","Express.js", "MongoDB"]}
                 index="04"
               />
+              <ProjectCard
+                image={TaskMate}
+                title="TaskMate"
+                githubLink="https://github.com/khutso-student/taskmate"
+                category="App"
+                tools={["React Native","Expo", "JavaScript", "Node.js", "Express.js", "MongoDB"]}
+                index="05"
+              />
+
+
 
               <ProjectCard
                 image={FetchMateBG}
@@ -183,7 +195,7 @@ export default function Projects() {
                 githubLink="https://github.com/khutso-student/FetchMate"
                 category="Software"
                 tools={["React","JavaScript","Tailwing CSS", "Django","PostgreSQL", "SQLIte", "yt-dlp"]}
-                index="05"
+                index="06"
               />
 
               <ProjectCard
@@ -193,7 +205,7 @@ export default function Projects() {
                 githubLink="https://github.com/khutso-student/WorkSync"
                 category="Software"
                 tools={["React","JavaScript", "Express.js", "Socket.io", "Node.js", "Tailwind CSS", "MongoDB"]}
-                index="06"
+                index="07"
               />
               <ProjectCard
                 image={WisePrice}
@@ -202,7 +214,7 @@ export default function Projects() {
                 githubLink="https://github.com/khutso-student/price-wise-shopkeeper"
                 category="Software"
                 tools={["React","TypeScript", "Supabase", "AI APIs","HTML", "CSS"]}
-                index="07"
+                index="08"
               />
               <ProjectCard
                 image={SmartBiz}
@@ -210,7 +222,7 @@ export default function Projects() {
                 demoLink="https://www.smartbizdigital.co.za/"
                 category="Website Live"
                 tools={["WordPress", "JavaScript", "Elementor","HTML", "CSS"]}
-                index="08"
+                index="09"
               />
             </motion.div>
           )}
