@@ -208,19 +208,17 @@ export default function Main() {
       </div>
 
       <div className="flex justify-center items-center w-full h-auto p-2 sm:p-5 mt-5">
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 w-full h-150 bg-[#0E0E10] border border-[#868686] rounded-xl p-2">
-          <div
-            className="flex justify-center items-center w-full h-full border rounded-xl border-[#868686]"
-            style={{ backgroundImage: `url(${ArtImage})` }}
-          >
-            <WorkCarousel />
-          </div>
-
-          <div className="flex justify-center items-center w-full h-1/2 sm:h-full">
-            <h1 className="text-white text-center font-bold text-3xl sm:text-5xl">
-              These are my Technical Skills
-            </h1>
-          </div>
+        <div className="flex flex-col sm:flex-row justify-center items-center w-full h-150 bg-[#0E0E10]">
+            <div
+              className="flex justify-center items-center w-full h-full border rounded-xl border-[#868686]"
+              style={{
+                backgroundImage: `url(${ArtImage})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }} >
+              <WorkCarousel />
+            </div>
         </div>
       </div>
 

@@ -13,8 +13,6 @@ import Queue from "../assets/QueueCare.png";
 import Adidas from "../assets/Adidas.png";
 import Meetify from "../assets/Meetify.png";
 import Jays from "../assets/Jays.png";
-import VibeConnect from "../assets/VibeConnect.png";
-import FetchMate from '../assets/FetchMate.png';
 
 // ✅ Design Card Component
 const DesignCard = ({ image, title, subtitle, tools = [] }) => {
@@ -133,18 +131,29 @@ export default function Design() {
         tools={["Figma", "UX Research", "Prototype"]}
       />
 
+              <DesignCard image={StandardBank} title="Standard Bank" subtitle="UX Redesign" tools={["Figma", "User Flow", "Prototype"]} />
+              <DesignCard image={TymBank} title="TymBank" subtitle="UX Redesign" tools={["Figma", "Prototyping", "WireFrames"]} />
+              <DesignCard image={Hotel} title="Hotel" subtitle="App Design" tools={["Figma", "Mobile UI", "Icon Design"]} />
+              <DesignCard image={WaxMovies} title="WAX-Movies" subtitle="App Design" tools={["Figma", "UI Components", "Dark Theme"]} />
+              <DesignCard image={Plants} title="Plants Login" subtitle="App Design" tools={["Figma", "Material Design", "Illustrations"]} />
+              <DesignCard image={TruckDebo} title="Truck DEBO" subtitle="App Design" tools={["Figma", "Prototype", "UX Research"]} />
+              <DesignCard image={Queue} title="QueueCare" subtitle="Software Design" tools={["Figma", "UX Flow", "Prototype"]} />
+              <DesignCard image={Adidas} title="Adidas Product" subtitle="Product Design" tools={["Figma", "Illustrations", "Materia Design"]} />
+              <DesignCard image={Meetify} title="Meetify" subtitle="Software" tools={["Figma", "UI Design", "WireFrame"]} />
+              <DesignCard image={Jays} title="Jays Electronics" subtitle="Ecommerce" tools={["Figma", "Material Designs", "Brand Colors"]} />
+
       {/* View All Button */}
-      <div className="w-full p-2 flex justify-center z-2000">
+      {/* <div className="w-full p-2 flex justify-center z-2000">
         <button
           onClick={() => setViewAll(!viewAll)}
           className="bg-[#0E0E10] border border-[#868686] hover:bg-[#0a473f] text-sm text-white w-full sm:w-auto px-6 py-2 rounded-md cursor-pointer duration-300"
         >
           {viewAll ? "Close" : "View All"}
         </button>
-      </div>
+      </div> */}
 
       {/* View All Modal */}
-      {viewAll && (
+      {/* {viewAll && (
         <div
           onClick={() => setViewAll(false)}
           className="fixed top-0 left-0 bg-[#000000f8] w-full h-full flex justify-center items-center z-50 p-5"
@@ -176,7 +185,7 @@ export default function Design() {
             <TfiClose />
           </div>
         </div>
-      )}
+      )} */}
     </motion.div>
   );
 }

@@ -61,8 +61,8 @@ export default function YearCard() {
   return (
     <div className="grid grid-cols-2 sm:grid-cols-4 gap-1 sm:gap-3 w-full p-2 sm:p-8">
       <StatCard start={0} end={2} label="Years of Experience" duration={2000} delay={60000} />
-      <StatCard start={0} end={24} label="Years Old" duration={2500} delay={60000} />
-      <StatCard start={0} end={6} label="Completed Projects" duration={2500} delay={60000} />
+      <StatCard start={0} end={25} label="Years Old" duration={2500} delay={60000} />
+      <StatCard start={0} end={7} label="Completed Projects" duration={2500} delay={60000} />
       <StatCard start={0} end={10} label="Tech Languages" duration={2500} delay={60000} />
     </div>
   );

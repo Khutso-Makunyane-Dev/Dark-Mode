@@ -52,10 +52,10 @@ export default function About() {
         </h1>
 
         {[
-          "I’m a Junior Software Developer, AI/ML enthusiast and UX/UI Designer with hands-on experience building web, mobile, and desktop applications using modern, scalable technologies. I work across the full development lifecycle — from user-centered design and frontend development to backend systems and deployment — creating solutions that are both intuitive and technically robust.",
-          "Trained through the Power Learn Project (PLP) Academy and additional professional certifications, I have developed strong skills in frontend, backend, and applied AI/ML development. My experience includes working with React, React Native, Node.js, Express, Django, Python, and integrating intelligent features that enhance automation, data handling, and decision-making within applications.",
-          "One of my proudest achievements is QueueCare, a smart queue and file management system built for healthcare facilities. It streamlines patient flow, digitizes records, and reduces waiting times — improving efficiency and overall user experience.",
-          "Let’s build the future — one line of code at a time."
+          "I’m a Junior Software Developer, AI/ML enthusiast, and UX/UI Designer with experience building full-stack web and mobile applications. I enjoy working across the entire development process—from designing user-friendly interfaces to building and deploying reliable backend systems.",
+          "I’ve trained through programmes like Afrika Tikkun Microsoft and Power Learn Project (PLP), and I’m currently studying Python programming at the University of South Africa. Along the way, I’ve worked with technologies such as React, Node.js, Express, Django, SQL, MongoDB, and Python, and I enjoy integrating smart features into applications.",
+          "I’ve built several projects from design all the way to full-stack development, including AI-powered applications. I believe my work and portfolio speak for themselves.",
+          "I’m passionate about using technology to solve real-world problems and create meaningful impact."
         ].map((text, i) => (
           <motion.p
             key={i}
