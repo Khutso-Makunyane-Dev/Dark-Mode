@@ -53,8 +53,13 @@ export default function About() {
 
         {[
           "I’m a Junior Software Developer, AI/ML enthusiast, and UX/UI Designer with experience building full-stack web and mobile applications. I enjoy working across the entire development process—from designing user-friendly interfaces to building and deploying reliable backend systems.",
-          "I’ve trained through programmes like Afrika Tikkun Microsoft and Power Learn Project (PLP), and I’m currently studying Python programming at the University of South Africa. Along the way, I’ve worked with technologies such as React, Node.js, Express, Django, SQL, MongoDB, and Python, and I enjoy integrating smart features into applications.",
+
+          "I’ve trained through programmes like Afrika Tikkun Microsoft and Power Learn Project (PLP), and I am currently a first-year student at Richfield, studying a Diploma NQF Level 6 in Information Technology. I am also studying Python Programming at University of South Africa. Along the way, I’ve worked with technologies such as React, Node.js, Express, Django, SQL, MongoDB, and Python, and I enjoy integrating smart features into applications.",
+
+          "I am currently working at Prime Resolve Debt Resolution as a UX/UI Designer and Software Developer, where I continue to gain hands-on industry experience by designing digital platforms, developing web solutions, and improving business systems.",
+
           "I’ve built several projects from design all the way to full-stack development, including AI-powered applications. I believe my work and portfolio speak for themselves.",
+
           "I’m passionate about using technology to solve real-world problems and create meaningful impact."
         ].map((text, i) => (
           <motion.p

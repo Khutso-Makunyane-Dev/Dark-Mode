@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { HiOutlineViewfinderCircle } from "react-icons/hi2";
-import { TfiClose } from "react-icons/tfi";
+
 
 import StandardBank from "../assets/StandardBank.png";
 import TymBank from "../assets/TymBank App.png";
@@ -13,7 +13,12 @@ import Queue from "../assets/QueueCare.png";
 import Adidas from "../assets/Adidas.png";
 import Meetify from "../assets/Meetify.png";
 import Jays from "../assets/Jays.png";
-
+import Prime1 from '../assets/Prime1.jpg';
+import Prime2 from '../assets/Prime2.png';
+import Prime3 from '../assets/Prime3.png';
+import Prime4 from '../assets/Prime4.png';
+import PrimeSystem from '../assets/Prime System.jpg';
+import HopesButcher from '../assets/HopesButcher.png';
 // ✅ Design Card Component
 const DesignCard = ({ image, title, subtitle, tools = [] }) => {
   const [modal, setModal] = useState(false);
@@ -83,7 +88,7 @@ const DesignCard = ({ image, title, subtitle, tools = [] }) => {
 
 // ✅ Main Design Component
 export default function Design() {
-  const [viewAll, setViewAll] = useState(false);
+ 
 
   return (
     <motion.div
@@ -94,6 +99,34 @@ export default function Design() {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       {/* Initial Grid */}
+       <DesignCard
+        image={PrimeSystem}
+        title="Prime Resolve"
+        subtitle="Prime System"
+        tools={["Figma", "Material Designs", "WireFrames", "UX Flow"]}
+      />
+
+      <DesignCard
+        image={Prime3}
+        title="Prime Resolve"
+        subtitle="Product Design"
+        tools={["Figma", "Material Designs", "Brand Colors"]}
+      />
+
+       <DesignCard
+        image={Prime2}
+        title="Prime Resolve"
+        subtitle="Product Design"
+        tools={["Figma", "Material Designs", "Brand Colors"]}
+      />
+
+        <DesignCard
+        image={HopesButcher}
+        title="Hope's Butchery"
+        subtitle="Product Design"
+        tools={["Figma", "Material Designs", "Brand Colors"]}
+      />
+
       <DesignCard
         image={StandardBank}
         title="Standard Bank"
@@ -130,17 +163,17 @@ export default function Design() {
         subtitle="App Design"
         tools={["Figma", "UX Research", "Prototype"]}
       />
+        <DesignCard image={Queue} title="QueueCare" subtitle="Software Design" tools={["Figma", "UX Flow", "Prototype"]} />
+        <DesignCard image={Adidas} title="Adidas Product" subtitle="Product Design" tools={["Figma", "Illustrations", "Materia Design"]} />
+        <DesignCard image={Meetify} title="Meetify" subtitle="Software" tools={["Figma", "UI Design", "WireFrame"]} />
+        <DesignCard image={Jays} title="Jays Electronics" subtitle="Ecommerce" tools={["Figma", "Material Designs", "Brand Colors"]} />
+        <DesignCard image={Prime1} title="Prime Resolve" subtitle="Poster" tools={["Figma", "Material Designs", "Brand Colors"]} />
+        <DesignCard image={Prime4} title="Prime Resolve" subtitle="Poster" tools={["Figma", "Material Designs", "Brand Colors"]} />
 
-              <DesignCard image={StandardBank} title="Standard Bank" subtitle="UX Redesign" tools={["Figma", "User Flow", "Prototype"]} />
-              <DesignCard image={TymBank} title="TymBank" subtitle="UX Redesign" tools={["Figma", "Prototyping", "WireFrames"]} />
-              <DesignCard image={Hotel} title="Hotel" subtitle="App Design" tools={["Figma", "Mobile UI", "Icon Design"]} />
-              <DesignCard image={WaxMovies} title="WAX-Movies" subtitle="App Design" tools={["Figma", "UI Components", "Dark Theme"]} />
-              <DesignCard image={Plants} title="Plants Login" subtitle="App Design" tools={["Figma", "Material Design", "Illustrations"]} />
-              <DesignCard image={TruckDebo} title="Truck DEBO" subtitle="App Design" tools={["Figma", "Prototype", "UX Research"]} />
-              <DesignCard image={Queue} title="QueueCare" subtitle="Software Design" tools={["Figma", "UX Flow", "Prototype"]} />
-              <DesignCard image={Adidas} title="Adidas Product" subtitle="Product Design" tools={["Figma", "Illustrations", "Materia Design"]} />
-              <DesignCard image={Meetify} title="Meetify" subtitle="Software" tools={["Figma", "UI Design", "WireFrame"]} />
-              <DesignCard image={Jays} title="Jays Electronics" subtitle="Ecommerce" tools={["Figma", "Material Designs", "Brand Colors"]} />
+
+
+
+
 
       {/* View All Button */}
       {/* <div className="w-full p-2 flex justify-center z-2000">
