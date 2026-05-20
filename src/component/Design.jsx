@@ -19,6 +19,8 @@ import Prime3 from '../assets/Prime3.png';
 import Prime4 from '../assets/Prime4.png';
 import PrimeSystem from '../assets/Prime System.jpg';
 import HopesButcher from '../assets/HopesButcher.png';
+import Lumina from '../assets/Lumina.jpg';
+
 // ✅ Design Card Component
 const DesignCard = ({ image, title, subtitle, tools = [] }) => {
   const [modal, setModal] = useState(false);
@@ -103,6 +105,13 @@ export default function Design() {
         image={PrimeSystem}
         title="Prime Resolve"
         subtitle="Prime System"
+        tools={["Figma", "Material Designs", "WireFrames", "UX Flow"]}
+      />
+
+      <DesignCard
+        image={Lumina}
+        title="Lumina"
+        subtitle="AI Interview System"
         tools={["Figma", "Material Designs", "WireFrames", "UX Flow"]}
       />
 
